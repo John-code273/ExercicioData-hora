@@ -7,13 +7,13 @@ Este projeto é um programa em Java que:
 - Mostra a data e hora do cadastro
 - Informa se o usuário é maior ou menor de idade
 
-## 🛠 Tecnologias
+## Tecnologias
 
 Foi usado:
 - Java
 - API de datas (`LocalDate`, `LocalDateTime`, `DateTimeFormatter`, `Period`)
 
-## ▶️ Como rodar
+## Como rodar
 
 1. Clone o repositório:
 2. Abra o projeto na sua IDE (IntelliJ, Eclipse, VS Code, etc.)
