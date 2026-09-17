@@ -1,22 +1,26 @@
-# Exercício Data e Hora
+# ExercicioData-hora
 
-Este projeto é um programa em Java que:
-- Lê o nome do usuário
-- Lê a data de nascimento
-- Calcula a idade
-- Mostra a data e hora do cadastro
-- Informa se o usuário é maior ou menor de idade
+## Objetivo
+Este projeto tem como objetivo criar um programa que leia o nome e a data de nascimento de uma pessoa, calcule a idade e o horário atual, e verifique se a pessoa é maior de idade.
 
-## Tecnologias
+## Funcionalidades
+- Leitura dos dados: Nome e data de nascimento.
+- Cálculo da idade usando a classe `Period` da biblioteca `java.time`.
+- Cálculo do horário atual usando a classe `LocalDateTime` da biblioteca `java.time`.
+- Verificação se a pessoa é maior de idade.
 
-Foi usado:
-- Java
-- API de datas (`LocalDate`, `LocalDateTime`, `DateTimeFormatter`, `Period`)
+## Tecnologias utilizadas
+- Java 8 ou superior.
 
-## Como rodar
+## Como executar
+1. Clone o projeto para o seu ambiente de desenvolvimento.
+2. Crie um novo arquivo `pom.xml` se você estiver usando Maven.
+3. Adicione as dependências necessárias para o projeto, como a biblioteca `java.time`.
+4. Compile o projeto usando o comando `javac Main.java`.
+5. Execute o programa usando o comando `java Main`.
 
-1. Clone o repositório:
-2. Abra o projeto na sua IDE (IntelliJ, Eclipse, VS Code, etc.)
-3. Compile e execute a classe `Main.java`
-
-
+## Conceitos de programação presentes
+- **Classes e Métodos**: `Main`, `Scanner`, `LocalDate`, `LocalDateTime`, `Period`, `DateTimeFormatter`.
+- **Lógica Condicional**: `if-else` para verificar a idade.
+- **Entrada/Saída**: `System.in` e `System.out` para leitura e exibição de dados.
+- **Data Manipulação**: `LocalDate.parse()` e `LocalDateTime.now()` para manipular datas e horários.
